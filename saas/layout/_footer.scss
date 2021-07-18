@@ -1,0 +1,18 @@
+.page-footer {
+    padding-top: 60px;
+    background: $ftrBkg;
+}
+
+.page-footer .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.page-footer__item:first-child {
+    margin-right: 70px;
+}
+
+.page-footer__item:last-child {
+    margin-left: auto;
+}

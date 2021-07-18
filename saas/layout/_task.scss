@@ -1,0 +1,39 @@
+.tasks {
+    margin-bottom: 50px;
+    padding: 0px;
+
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $titleColor;
+}
+.tasks-set {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tasks-set__item:not(:last-child) {
+    margin-right: 30px;
+}
+.tasks-set__thumb {
+    position: relative;
+}
+.tasks-set__text {
+    display: block;
+    position: absolute;
+    width: 370px;
+    bottom: 0;
+    padding: 27px 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    background: rgba(47, 48, 58, 0.8);
+    color: $txtColor;
+}

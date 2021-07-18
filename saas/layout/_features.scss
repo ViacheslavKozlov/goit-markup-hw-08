@@ -1,0 +1,45 @@
+.hidden-heading {
+    visibility: hidden;
+}
+
+.features-set {
+    display: flex;
+    align-items: center;
+    padding-top: 94px;
+    padding-bottom: 0px;
+}
+
+.features-set__item {
+    max-width: 270px;
+}
+
+.features-set__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.features-set__title {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $titleColor;
+}
+
+.features-set__text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: $commonText;
+}
+
+.features-set__icon {
+    display: block;
+    margin-bottom: 30px;
+    padding: 25px 100px;
+
+    background-color: $btnBkg;
+}
