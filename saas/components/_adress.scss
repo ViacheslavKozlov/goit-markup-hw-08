@@ -1,84 +1,50 @@
-.nav-adress {
-    display: flex;
-    margin-left: auto;
-    &__icon {
-        margin-right: 10px;
-        fill: $commonText;
-        cursor: pointer;
-    }
-        & &__link-adress {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-            &:hover svg,
-            &:focus svg {
-                fill: $activeColor;
-            }
-    }
-
-    & > .nav__item:not(:last-child) {
-    margin-right: 50px;
-    }
-}
-
-// .nav-adress .nav-adress__link-adress {
+// .nav-adress {
 //     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-// }
+//     margin-left: auto;
+//     &__icon {
+//         margin-right: 10px;
+//         fill: $commonText;
+//         cursor: pointer;
+//     }
+//         & &__link-adress {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
 
-// .nav-adress__icon {
-//     margin-right: 10px;
-//     fill: var(--common-text);
-//     cursor: pointer;
-// }
+//             &:hover svg,
+//             &:focus svg {
+//                 fill: $activeColor;
+//             }
+//     }
 
-// .nav-adress .nav-adress__link-adress:hover svg,
-// .nav-adress .nav-adress__link-adress:focus svg {
-//     fill: var(--active-color);
-// }
-
-// .nav-adress>.nav__item:not(:last-child) {
+//     & > .nav__item:not(:last-child) {
 //     margin-right: 50px;
-// }
-.adress-list {
-    padding-top: 20px;
-    padding-bottom: 60px;
-
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-
-    color: $txtColor;
-
-    &__link {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-
-        color: rgba(255, 255, 255, 0.6);
-    }
-
-    &__item:not(:last-child) {
-        margin-bottom: 9px;
-    }
-}
-
-// .adress-list__item:not(:last-child) {
-//     margin-bottom: 9px;
+//     }
 // }
 
-// .adress-list__link {
+// .adress-list {
+//     padding-top: 20px;
+//     // padding-bottom: 60px;
+
 //     font-style: normal;
 //     font-weight: normal;
 //     font-size: 14px;
 //     line-height: 24px;
 //     letter-spacing: 0.03em;
 
-//     color: rgba(255, 255, 255, 0.6);
+//     color: $txtColor;
+
+//     &__link {
+//         font-style: normal;
+//         font-weight: normal;
+//         font-size: 14px;
+//         line-height: 24px;
+//         letter-spacing: 0.03em;
+
+//         color: rgba(255, 255, 255, 0.6);
+//     }
+
+//     &__item:not(:last-child) {
+//         margin-bottom: 9px;
+//     }
 // }
