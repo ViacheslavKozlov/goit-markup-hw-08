@@ -129,12 +129,6 @@
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    // &:hover svg,
-    // &:focus svg {
-    //     fill: $activeColor;
-    //     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    // }
-
     &_white-fill:hover svg,
     &_white-fill:focus svg {
         fill: $txtColor;
@@ -225,25 +219,3 @@
         fill: $txtColor;
     }
 }
-// .subscr-form__field {
-//     max-width: 570px;
-//     margin-right: 10px;
-// }
-
-// .subscr-form__input {
-//     max-width: 358px;
-//     max-height: 50px;
-//     padding: 15px;
-
-//     font-size: 16px;
-//     line-height: 20px;
-//     letter-spacing: 0.03em;
-
-//     box-sizing: border-box;
-//     border-radius: 4px;
-//     border: 1px solid rgba(255, 255, 255, 0.3);
-
-//     background-color: var(--footer-background);
-//     color: rgba(255, 255, 255, 0.6);
-//     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-// }

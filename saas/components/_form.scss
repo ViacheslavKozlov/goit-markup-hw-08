@@ -1,56 +1,3 @@
-// .subscr-form {
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     justify-content: space-between;
-
-//     &__field {
-//         max-width: 570px;
-//         margin-right: 10px;
-//     }
-
-//     &__input {
-//         width: 358px;
-//         height: 50px;
-//         padding: 15px;
-
-//         font-size: 16px;
-//         line-height: 20px;
-//         letter-spacing: 0.03em;
-
-//         box-sizing: border-box;
-//         border-radius: 4px;
-//         border: 1px solid rgba(255, 255, 255, 0.3);
-
-//         background-color: $ftrBkg;
-//         color: rgba(255, 255, 255, 0.6);
-//         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-//     }
-// }
-
-// // .subscr-form__field {
-// //     max-width: 570px;
-// //     margin-right: 10px;
-// // }
-
-// // .subscr-form__input {
-// //     max-width: 358px;
-// //     max-height: 50px;
-// //     padding: 15px;
-
-// //     font-size: 16px;
-// //     line-height: 20px;
-// //     letter-spacing: 0.03em;
-
-// //     box-sizing: border-box;
-// //     border-radius: 4px;
-// //     border: 1px solid rgba(255, 255, 255, 0.3);
-
-// //     background-color: var(--footer-background);
-// //     color: rgba(255, 255, 255, 0.6);
-// //     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-// // }
-
 .modal-form__title {
     margin: 40px 40px 12px 40px;
 
@@ -128,18 +75,6 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
-
-// .modal-form__input:focus+svg>use,
-// .modal-form__input:hover+svg>use,
-// .modal-form__input:focus,
-// .modal-form__input:hover {
-//     fill: var(--active-color);
-//     border-color: var(--active-color);
-//     transition-property: border-color;
-//     transition-duration: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-// }
-
 .modal-form-fields .form-field:hover svg,
 .modal-form-fields .form-field:focus svg {
     fill: $activeColor;
