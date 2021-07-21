@@ -5,7 +5,8 @@
         margin: -15px;
     }
     &__item {
-        display: block;
+        display: flex;
+        flex-direction: column;
         box-sizing: border-box;
             &:not(:last-child) {
                 margin-bottom: 30px;
@@ -56,10 +57,12 @@
 }
 
 .portfolio-list__img {
+    flex-shrink: 0;
     position: relative;
     overflow: hidden;
 }
 .portfolio-list__infoframe {
+    height: 100%;
     padding: 20px 0px 20px 24px;
     border-left: 1px solid $frameColor;
     border-right: 1px solid $frameColor;

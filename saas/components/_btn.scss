@@ -77,11 +77,16 @@
     flex-wrap: wrap;
     margin-bottom: 40px;
     margin-top: -15px;
+    padding-top: 60px;
 
     @media screen and (min-width: 768px) {
         justify-content: center;
         margin-top: 0;
     }
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+    }
+
     &__item {
         @media screen and (max-width: 767px) {
             margin-right: 8px;
